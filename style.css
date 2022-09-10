@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+font-family: "Poppins",sans-serif;
+
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    background: #F0FFFF;
+}
+
+
+.main_div{
+  width: 100%;
+  height: 100vh;
+  background: #F0FFFF;
+}
+
+.my_div h2{
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #00BFFF ;
+  padding: 20px;  
+}
+nav{
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+  background:   #FFA500;
+}
+
+
+.detel{
+margin-left: 8%;
+margin-top: 13%
+
+}
+.detel h1{
+  font-size: 50px;
+  color: #212121;
+  margin-top: 20px;
+
+}
+
+.detel h1 span{
+color:#00BFFF;
+}
+.detel p{
+  color: #555;
+  line-height: 22px;
+}
+.detel a{
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.detel a:hover{
+  background: red;
+}
+
+.images{
+  width: 45%;
+  height: 50%
+  position: absolute;
+  bottom: 20;
+  top:10;
+  right: 100%;
+}
+
+.images img{
+  height: 85%;
+  position: absolute;
+  left: 70%;
+  bottom: 2%;
+    border-radius: 20px;
+  top:13%;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+  bottom: 40px;
+}
+.images:hover .me{
+  left: 65%;
+}
+.lower-section,
+.upper-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ececec;
+
+  span { font-size: 2.2rem; }
+}
+
+.skills img
+{
+    width: 270px;
+    height: 270px;
+    padding: 30px;
+    border-radius: 40px;
+    margin-left: 2%;
+ 
+}
+.special
+{
+  border: 2px solid #00BFFF;
+    border-radius: 40px;
+    margin-top: 5%;
+}
+.skills1
+{
+    margin-left: 8%;
+}
+.skills1 img
+{
+    width: 340px;
+    height: 340px;
+    padding: 30px;
+    border-radius: 40px;   
+    margin-left: 10px;
+}
+
+.con
+{
+    border: 2px solid #00BFFF;
+    border-radius: 40px;
+    margin-top: 70px;
+}
+.con h1
+{
+    font-size: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 1%;
+     background: #F0FFFF;
+      color: #00BFFF;
+}
+.con h5
+{
+     font-size: 30px;
+    text-align: center;
+    margin-top: 2px;
+    font-weight: 500;
+    background-color: #F0FFFF;;
+    color: #969696;
+}
+.con p
+{
+    font-size: 23px;
+    text-align: center;
+    background: #F0FFFF;
+    color: #969696;
+    margin-top: 15px;
+}
+
+.contact_div
+{
+  background-color: #969696;
+  border: 2px solid #00BFFF;
+    border-radius: 40px;
+    margin-top: 5%;
+
+}
+.title{
+  padding-top: 40px;
+  margin-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #00BFFF;
+  text-decoration: none;
+}
+
+
+/* Add a background color and some padding around the form */
+.container1{
+  background-image: url('img/b.jpg');
+  display: flex;
+
+}
+.container {
+  border-radius: 5px;
+  background-color: rgba(108,122,127,.75);
+  padding: 20px 20px;
+max-width: 100%;
+    max-height: 90%;
+margin-left: 15%;
+margin-top: 50px;
+margin-bottom: 20px;
+text-decoration: none;
+color: #fff;
+
+}
+.label_1{ 
+  margin-left: 35%;
+
+  margin-top: 40%;  
+}
+.my_txt{
+  width: 400px;
+  height: 30px;
+  margin-left: 35%;
+  margin-top: 15px;
+  margin-bottom:15px; 
+}
+#country{
+  width: 200px;
+  height: 30px;
+}
+#subject{
+  width: 400px;
+  height: 10px;
+  margin-left: 35%;
+  margin-bottom: 3%
+}
+.sbt{
+  width: 150px;
+  height: 45px;
+  margin-left: 45%;
+  background: #DC143C;
+  color: white;
+  margin-bottom: 3%;
+
+}
+.media-icons{
+    display: flex;
+    padding-top: 30px;
+    justify-content: flex-start;
+    padding-left: 9%;
+    align-items: left;
+    margin: auto;
+
+}
+.media-icons a{
+    position:relative;
+    color: #111;
+    font-size: 30px;
+    transition: 0.3s;
+
+}
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+
+}
+.media-icons a:hover{
+    transform: scale(1.5);
+    color: red;
+
+}
